@@ -7,7 +7,6 @@ export const SearchBar = () => {
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearch(e.target.value);
-    console.log(search);
   };
 
   return (

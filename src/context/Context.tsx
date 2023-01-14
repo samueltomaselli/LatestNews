@@ -1,11 +1,5 @@
-import React, { ChangeEvent, createContext, useEffect, useState } from "react";
+import React, { createContext, useState } from "react";
 import axios from "axios";
-
-// type News = {
-//   id: number;
-//   title: string;
-//   body: string;
-// };
 
 type IArticle = {
   author: string;

@@ -1,8 +1,6 @@
-import { FaSearch } from "react-icons/fa";
-import reactLogo from "./assets/react.svg";
 import { Posts } from "./components/News";
 import { SearchBar } from "./components/SearchBar";
-import { InfoContext, InfoProvider } from "./context/Context";
+import { InfoProvider } from "./context/Context";
 
 function App() {
   return (

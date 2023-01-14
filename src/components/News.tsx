@@ -1,5 +1,4 @@
-import { useContext, useEffect, useState } from "react";
-import axios from "axios";
+import { useContext, useEffect } from "react";
 import { InfoContext } from "../context/Context";
 import img from "../assets/img.webp";
 
@@ -11,11 +10,7 @@ export const Posts = () => {
   }, []);
 
   const dateParse = (date: string) => {
-    const datez = new Date(date);
-    const dateForm = new Date(datez.getTime());
-    const dateXdd = dateForm.toLocaleDateString("pt-BR");
-    const dateXd = dateXdd.toString();
-    return dateXd;
+    return new Date(date).toLocaleDateString("pt-BR");
   };
 
   return (
