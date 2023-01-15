@@ -7,6 +7,7 @@ type IArticle = {
   publishedAt: string;
   description: string;
   urlToImage: string;
+  url: string;
 };
 
 type News = {
