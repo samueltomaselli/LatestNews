@@ -6,8 +6,8 @@ function App() {
   return (
     <InfoProvider>
       <div className="font-mono">
-        <header className="bg-gray-400 to-slate-800 text-white max-h-64 h-52 flex items-center justify-center ">
-          <nav className="bg-gray-400 w-3/6 h-full py-8 flex flex-col justify-between">
+        <header className="bg-purple-start to-slate-800 text-white max-h-64 h-52 flex items-center justify-center ">
+          <nav className="bg-purple-start w-3/6 h-full py-8 flex flex-col justify-between">
             <div className="flex justify-center text-4xl font-semibold">
               <div>LatestNews</div>
             </div>

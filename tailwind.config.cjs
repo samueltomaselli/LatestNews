@@ -5,12 +5,8 @@ module.exports = {
     extend: {
       colors: {
         "purple-start": "#574AE8",
-        "purple-end": "",
       },
     },
   },
   plugins: [],
 };
-
-// gradientColorStops:
-//   primary: "linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%)",

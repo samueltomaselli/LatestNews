@@ -10,7 +10,7 @@ export const SearchBar = () => {
   };
 
   return (
-    <div className="bg-gray-300 bg-opacity-30  flex items-center p-3 h-16 gap-3 rounded-md">
+    <div className="bg-gray-300 bg-opacity-30 flex items-center p-3 h-16 gap-3 rounded-md">
       <FaSearch className="text-2xl" />
       <input
         type="search"

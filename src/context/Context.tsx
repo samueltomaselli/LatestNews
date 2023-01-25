@@ -34,7 +34,7 @@ export const InfoProvider = ({ children }: IProvider) => {
   const [search, setSearch] = useState<string>("");
   const fetchNews = async () => {
     try {
-      const response = await axios.get("https://newsapi.org/v2/top-headlines?country=us&apiKey=f9d1dbb651434ae5b7a0adbcb0c0d864");
+      const response = await axios.get(`https://newsapi.org/v2/top-headlines?country=us&apiKey=${import.meta.env.VITE_REACT_API_KEY}`);
       setNews(response.data);
     } catch (error) {
       throw new Error("Not found");
